@@ -3,14 +3,14 @@
 # This is the single source of truth for your personal data across all modes.
 
 candidate:
-  full_name: "Jane Smith"
-  email: "jane@example.com"
-  phone: "+1-555-0123"
-  location: "San Francisco, CA"
-  linkedin: "linkedin.com/in/janesmith"
-  portfolio_url: "https://janesmith.dev"
-  github: "github.com/janesmith"
-  twitter: "https://x.com/janesmith"
+  full_name: "Cédric Jestin"
+  email: "jestincedric@yahoo.com"
+  phone: "+33-786591997"
+  location: "Clermont-Ferrand, France"
+  linkedin: ""
+  portfolio_url: ""
+  github: "https://github.com/CedricJ7/"
+  twitter: ""
   # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
   # Find it in your Canva design URL: https://www.canva.com/design/DAxxxxxxx/...
   # The ID starts with "D" and is 11 characters long.
@@ -19,18 +19,18 @@ candidate:
 target_roles:
   # Your North Star roles — what you're optimizing for
   primary:
-    - "Senior AI Engineer"
-    - "Staff ML Engineer"
+    - "Stage Machine learning"
+    - "Stage data"
   # Archetypes help the evaluation system score fit
   archetypes:
     - name: "AI/ML Engineer"
-      level: "Senior/Staff"
+      level: "apprentice"
       fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
-    - name: "AI Product Manager"
-      level: "Senior"
+    - name: "Data scientist"
+      level: "apprentice"
       fit: "secondary"
-    - name: "Solutions Architect"
-      level: "Mid-Senior"
+    - name: "Data analyst"
+      level: "apprentice"
       fit: "adjacent"
 
 narrative:
@@ -57,15 +57,15 @@ narrative:
   #   password: "demo-2026"
 
 compensation:
-  target_range: "$150K-200K"     # Your target total comp
-  currency: "USD"
-  minimum: "$120K"               # Walk-away number
-  location_flexibility: "Remote preferred, 1 week/month on-site possible"
+  target_range: ""     # Your target total comp
+  currency: "€"
+  minimum: ""               # Walk-away number
+  location_flexibility: "on site"
 
 location:
-  country: "United States"
-  city: "San Francisco"
-  timezone: "PST"
-  visa_status: "No sponsorship needed"
+  country: "France"
+  city: ""
+  timezone: "Paris"
+  # visa_status: "" # not necessary for me right now
   # For remote roles outside your country:
   # onsite_availability: "1 week/month in any city"
